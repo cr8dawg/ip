@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+
+
+int main()
+
+
+{
+
+    int a, b, c;
+    a = 1;
+    b = 2;
+    c = a * b;
+
+    int d, e, f;
+    d = 2;
+    e = 2;
+    f = d * e;
+
+    int g, h, i;
+    g = 4;
+    h = 2;
+    i = g * h;
+
+    int j, k, l;
+    j = 8;
+    k = 2;
+    l = j * k;
+
+    int m, n, o;
+    m = 16;
+    n = 2;
+    o = m * n;
+
+    int p, q, r;
+    p = 32;
+    q = 2;
+    r = p * q;
+
+    int s, t, u;
+    s = 64;
+    t = 2;
+    u = s * t;
+
+    int v, w, x;
+    v = 128;
+    w = 2;
+    x = v * w;
+
+    printf("%d * %d = %d\n", a, b, c);
+    printf("%d * %d = %d\n", d, e, f);
+    printf("%d * %d = %d\n", g, h, i);
+    printf("%d * %d = %d\n", j, k, l);
+    printf("%d * %d = %d\n", m, n, o);
+    printf("%d * %d = %d\n", p, q, r);
+    printf("%d * %d = %d\n", s, t, u);
+    printf("%d * %d = %d\n", v, w, x);
+    return 0;
+
+}
